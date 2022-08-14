@@ -17,7 +17,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from bot import AUTH_CHANNEL, COMMM_AND_PRE_FIX, BROADCAST_COMMAND
+from bot import AUTH_CHANNEL, COMMM_AND_PRE_FIX, BROADCAST_COMMAND, VIP_MSG
 from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 from bot.sql.users_sql import get_chats
@@ -57,6 +57,5 @@ async def vip_cmd(client: Client, message: Message):
         await message.reply_text(
             text=VIP_MSG, 
             reply_markup=InlineKeyboardMarkup(buttons),
-            disable_web_page_preview=True,
             quote=True,
         )
