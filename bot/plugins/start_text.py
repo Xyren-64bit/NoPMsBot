@@ -41,6 +41,5 @@ async def start_command(client: Client, message: Message):
                 "https://telegra.ph//file/b3da13ddeb799d8f06ffe.jpg", 
             caption=START_MSG, 
             reply_markup=InlineKeyboardMarkup(buttons),
-            disable_web_page_preview=True,
             quote=True,
         )
