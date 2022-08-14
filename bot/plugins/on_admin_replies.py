@@ -52,7 +52,7 @@ from bot.sql.users_sql import (
 )
 async def on_pm_s(client: Client, message: Message):
     user_id, reply_message_id = get_user_id(
-        message.reply_to_message.message_id
+        message.reply_to_message
     )
     if not user_id:
         return
