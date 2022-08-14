@@ -19,9 +19,7 @@ from pyrogram import (
     Client,
     filters
 )
-from pyrogram.types import (
-    Message
-)
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from bot import (
     AUTH_CHANNEL,
     COMMM_AND_PRE_FIX,
@@ -32,23 +30,17 @@ from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
 
-@Bot.on_message(
-    filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
-)
-async def num_start_message(client: Bot, message: Message):
-    await message.reply_text(
-        client.commandi[START_COMMAND],
-        quote=True
-    )
-
-
-@Bot.on_message(
-    filters.command(START_COMMAND, COMMM_AND_PRE_FIX) &
-    uszkhvis_chats_ahndler([AUTH_CHANNEL])
-)
-async def nimda_start_message(_, message: Message):
-    await message.reply_text(
-        ONLINE_CHECK_START_TEXT,
-        quote=True
-    )
+@Bot.on_message(filters.command("start") & filters.private)
+async def start_command(client: Client, message: Message):
+        buttons = [
+            [
+                InlineKeyboardButton("Info & Testi VIP", url="https://t.me/VvipNSID02"),
+            ]
+        ]
+        await message.reply_photo(
+                "https://telegra.ph//file/b3da13ddeb799d8f06ffe.jpg", 
+            caption="rest", 
+            reply_markup=InlineKeyboardMarkup(buttons),
+            disable_web_page_preview=True,
+            quote=True,
+        )
