@@ -15,7 +15,7 @@
 # along with this program.  If not, see <https://www.gnu.org/licenses/>.
 
 from pyrogram import Client, filters
-from pyrogram.types import Message
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from bot import AUTH_CHANNEL, COMMM_AND_PRE_FIX, BROADCAST_COMMAND
 from bot.bot import Bot
