@@ -23,7 +23,7 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from bot import (
     AUTH_CHANNEL,
     COMMM_AND_PRE_FIX,
-    ONLINE_CHECK_START_TEXT,
+    START_MSG,
     START_COMMAND
 )
 from bot.bot import Bot
