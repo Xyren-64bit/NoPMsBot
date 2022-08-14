@@ -45,3 +45,18 @@ async def num_start_message(client: Bot, message: Message):
     if TTL != SUCCESS:
         MSG += f"\nFailed : {All-SUCCESS} Chats."
     await message.reply_text(MSG, quote=True)
+
+
+@Bot.on_message(filters.command("vip") & filters.private)
+async def vip_cmd(client: Client, message: Message):
+        buttons = [
+            [
+                InlineKeyboardButton("Info & Testi VIP", url="https://t.me/VvipNSID02"),
+            ]
+        ]
+        await message.reply_text(
+            text=VIP_MSG, 
+            reply_markup=InlineKeyboardMarkup(buttons),
+            disable_web_page_preview=True,
+            quote=True,
+        )
