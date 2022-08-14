@@ -107,6 +107,18 @@ DERP_USER_S_TEXT = get_config(
     "DERP_USER_S_TEXT",
     "😐"
 )
+
+START_MSG = get_config(
+    "START_MSG",
+    "Hai 🙋🏻‍♂️, Apa kabar?\n\nSaya adalah bot yang terhubung langsung dengan 𝗮𝗱𝗺𝗶𝗻 𝗡𝗦𝗜𝗗. Diciptakan untuk melayani kalian yang ingin gabung 𝗩𝗩𝗜𝗣 𝗡𝗦𝗜𝗗.\n\nSilahkan tekan /vip untuk melihat daftar harga. Mohon tunggu dan bersabar chat kalian pasti akan dibalas admin 😇"
+) 
+
+
+VIP_MSG = get_config(
+     "VIP_MSG", 
+     "🎥𝙻𝙸𝚂𝚃 𝙶𝚁𝚄𝙿 𝙱𝙾𝙺*𝙿 𝚃𝙰𝙽𝙿𝙰 𝙻𝙸𝙽𝙺⬇️\n\n𝟷. 🔐𝚅𝚅𝙸𝙿 𝙲𝙰𝙼𝙿𝚄𝚁𝙰𝙽🔞 = 𝚁𝚙 𝟺𝟶.𝟶𝟶𝟶\n✅𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙲𝙰𝙼𝙿𝚄𝚁𝙰𝙽\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝙱𝙴𝙻𝙰𝚂𝙰𝙽 𝚁𝙸𝙱𝚄 𝚅𝙸𝙳𝙴𝙾\n\n𝟸. 🔐𝚅𝙸𝙿 𝚁𝙰𝚁𝙴 🔞 = 𝚁𝚙 𝟹𝟶.𝟶𝟶�\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝚁𝙰𝚁𝙴\n\n𝟹. 🔐𝚅𝙸𝙿 𝙾𝙽𝙻𝚈𝙵𝙰𝙽𝚂 🔞 = 𝚁𝚙 𝟹𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙾𝙽𝙻𝚈𝙵𝙰𝙽𝚂\n\n𝟺. 🔐𝚅𝙸𝙿 𝙷𝙸𝙹𝙰𝙱 🔞 = 𝚁𝚙 𝟹𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙷𝙸𝙹𝙰𝙱\n\n𝟻. 🔐𝚅𝙸𝙿 𝙻𝙸𝚅𝙴 (𝙾𝙼𝙴 𝙱𝙸𝙶𝙾 𝙳𝙻𝙻/𝚅𝙲𝚂) 🔞 = 𝚁𝚙 𝟹𝟶.𝟶𝟶𝟶\n✅𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙻𝙸𝚅𝙴 𝙱𝙸𝙶𝙾 𝙾𝙼𝙴 / 𝚅𝙲𝚂\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝚅𝙸𝙳𝙴𝙾\n\n𝟼. 🔐𝚅𝙸𝙿 𝙸𝙽𝙳𝙾 🔞 = 𝚁𝚙 𝟻𝟶.𝟶𝟶𝟶\n✅𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙸𝙽𝙳𝙾 𝙼𝙰𝙻𝙰𝚈\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝙱𝙴𝙻𝙰𝚂𝙰𝙽 𝚁𝙸𝙱𝚄 𝚅𝙸𝙳𝙴𝙾\n\n𝟽. 🔐𝚅𝙸𝙿 𝙹𝙰𝚅 🔞  = 𝚁𝚙 𝟹𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙹𝙰𝚅\n\n𝟾.🔐𝚅𝙸𝙿 𝙱𝙾𝙲𝙸𝙻 🔞  = 𝚁𝚙 𝟻𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙱𝙾𝙲𝙸𝙻\n\n𝟿. 🔐𝚅𝙸𝙿 𝙱𝙰𝚁𝙰𝚃 🔞  = 𝚁𝚙 𝟹𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙸𝙱𝚄𝙰𝙽 𝙵𝚄𝙻𝙻 𝚅𝙸𝙳𝙴𝙾 𝙱𝙰𝚁𝙰𝚃\n\n𝟷𝟶. 🔐𝚅𝙸𝙿 𝙷𝙴𝙽𝚃𝙰𝙸 🔞  = 𝚁𝚙 3𝟶.𝟶𝟶𝟶\n✅𝙱𝙴𝚁𝙸𝚂𝙸 𝚁𝙰𝚃𝚄𝚂𝙰𝙽 𝚅𝙸𝙳𝙴𝙾 𝙷𝙴𝙽𝚃𝙰𝙸\n\n_𝚋𝚎𝚛𝚕𝚊𝚔𝚞 𝚞𝚗𝚝𝚞𝚔 𝚜𝚎𝚖𝚞𝚊 𝚐𝚛𝚞𝚙\n✅𝚂𝙴𝙺𝙰𝙻𝙸 𝙱𝙰𝚈𝙰𝚁 𝙿𝙴𝚁𝙼𝙰𝙽𝙴𝙽\n✅𝙳𝙰𝙿𝙰𝚃 𝙹𝙰𝙼𝙸𝙽𝙰𝙽 𝙸𝙽𝚅𝙸𝚃𝙴 𝚄𝙻𝙰𝙽𝙶 𝙹𝙸𝙺𝙰 𝙲𝙷 𝙺𝙴𝙱𝙰𝙽𝙽𝙴𝙳\n✅𝙱𝙴𝙱𝙰𝚂 𝙰𝙺𝚂𝙴𝚂 𝙽𝙾 𝙻𝚄𝙰𝚁 𝙰𝚃𝙰𝚄 𝙸𝙽𝙳𝙾\n✅𝚄𝙿𝙳𝙰𝚃𝙴 𝚂𝙴𝚃𝙸𝙰𝙿 𝚂𝙰𝙰𝚃\n\n🎉𝙹𝙾𝙸𝙽 𝚂𝙴𝙼𝚄𝙰 𝙶𝚁𝚄𝙿 = 𝚁𝚙 𝟸𝟶𝟶.𝟶𝟶\n\n𝙋𝙖𝙮𝙢𝙚𝙣𝙩:\n✅DANA ✅𝙶𝙾𝙿𝙰𝚈  ✅BANK BSI ✅OVO ✅SHOPE PAY\n\n𝚃𝙴𝚂𝚃𝙸 𝙳𝙰𝙽 𝙹𝙾𝙸𝙽 ? : @VvipNSID02\n\n𝙼𝙰𝚄 𝙶𝙰𝙱𝚄𝙽𝙶? 𝙲𝙷𝙰𝚃 𝙺𝙴 👇\n@ChatJoinVipBot\n@ChatJoinVipBot\n@ChatJoinVipBot"
+) 
+
 # message to show when user is banned
 IS_BLACK_LIST_ED_MESSAGE_TEXT = get_config(
     "IS_BLACK_LIST_ED_MESSAGE_TEXT",
