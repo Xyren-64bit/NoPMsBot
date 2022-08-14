@@ -53,7 +53,6 @@ class Bot(Client):
     async def start(self):
         await super().start()
         usr_bot_me = await self.get_me()
-        self.set_parse_mode("html")
         try:
             check_m = await self.get_messages(
                 chat_id=AUTH_CHANNEL,
