@@ -30,8 +30,11 @@ from bot.bot import Bot
 from bot.hf.flifi import uszkhvis_chats_ahndler
 
 
-@Bot.on_message(filters.command("start") & filters.private)
-async def start_command(client: Client, message: Message):
+@Bot.on_message(
+    filters.command("start", "/") &
+    ~uszkhvis_chats_ahndler([AUTH_CHANNEL])
+)
+async def num_start_message(client: Bot, message: Message):
         buttons = [
             [
                 InlineKeyboardButton("Info & Testi VIP", url="https://t.me/VvipNSID02"),
